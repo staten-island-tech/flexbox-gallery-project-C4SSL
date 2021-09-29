@@ -1,0 +1,23 @@
+body {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Yaldevi", sans-serif;
+  font-weight: 600;
+}
+
+img {
+  height: 40vh;
+}
+
+.npcs {
+  display: flex;
+  text-align: center;
+  background-color: #83af9b;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 25px;
+  padding: 10px;
+}
