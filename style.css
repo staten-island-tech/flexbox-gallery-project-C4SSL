@@ -1,5 +1,6 @@
 body {
   margin-top: 50px;
+  background-color: #bde6d3;
 }
 
 h1 {
@@ -13,6 +14,16 @@ img {
 }
 
 .npcs {
+  display: flex;
+  text-align: center;
+  background-color: #83af9b;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.npcs-2 {
   display: flex;
   text-align: center;
   background-color: #83af9b;
