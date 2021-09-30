@@ -9,6 +9,10 @@ h1 {
   font-weight: 600;
 }
 
+p {
+  font-size: 20px;
+  font-family: "yaldevi";
+}
 img {
   height: 40vh;
 }
@@ -16,19 +20,26 @@ img {
 .npcs {
   display: flex;
   text-align: center;
-  background-color: #83af9b;
-  flex-direction: row;
   justify-content: space-around;
-  border-radius: 25px;
-  padding: 10px;
 }
 
-.npcs-2 {
-  display: flex;
-  text-align: center;
+#beau {
   background-color: #83af9b;
-  flex-direction: row;
-  justify-content: space-around;
+  padding: 40px;
   border-radius: 25px;
-  padding: 10px;
+  box-shadow: 10px 10px;
+}
+
+#tia {
+  background-color: #83af9b;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+}
+
+#eloise {
+  background-color: #83af9b;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
 }
