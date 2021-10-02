@@ -1,12 +1,17 @@
 body {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 50px;
   background-color: rgb(231, 103, 129);
 }
 
 h1 {
   text-align: center;
-  font-family: "Yaldevi", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  background-color: rgba(196, 38, 69, 0.719);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 p {
