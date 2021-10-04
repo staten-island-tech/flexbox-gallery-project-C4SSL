@@ -1,7 +1,7 @@
 body {
   margin-top: 60px;
   margin-bottom: 50px;
-  background-color: rgb(231, 103, 129);
+  background-color: rgb(218, 87, 113);
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
-  background-color: rgba(196, 38, 69, 0.719);
+  background-color: rgb(241, 128, 151);
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -18,8 +18,15 @@ p {
   font-size: 20px;
   font-family: "yaldevi";
 }
+
 img {
   height: 30vh;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 .npc {
@@ -38,5 +45,5 @@ img {
   box-shadow: 10px 10px;
   background-color: rgb(155, 46, 67);
   color: ;
-  color: rgb(245, 158, 175);
+  color: rgb(226, 127, 147);
 }
