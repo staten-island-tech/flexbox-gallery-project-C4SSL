@@ -54,7 +54,6 @@ img {
   border-radius: 25px;
   box-shadow: 10px 10px;
   background-color: rgb(155, 46, 67);
-  color: ;
   color: rgb(226, 127, 147);
   width: 28%;
   text-align: center;
@@ -62,10 +61,12 @@ img {
 
 @media screen and (max-width: 900px) {
   .card {
-    width: 32%;
+    width: 25%;
+    justify-content: space-around;
   }
 }
 
 .rating {
   display: block;
+  font-size: 2rem;
 }
