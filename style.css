@@ -55,23 +55,22 @@ img {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 769px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  img {
-    height: 15rem;
-  }
-  .card {
-    width: 32%;
-    justify-content: space-around;
-    height: 40%;
-    justify-content: space-evenly;
-  }
-}
-
 .rating {
   display: block;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 1700px) {
+  img {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .npc {
+    width: 80%;
+  }
+  .card {
+    width: 40%;
+  }
 }
