@@ -19,6 +19,19 @@ h1 {
   font-size: 5rem;
   background-color: rgb(241, 128, 151);
   margin: 2vw;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 80%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .card-header {
@@ -28,25 +41,27 @@ h1 {
 }
 
 img {
-  height: 30rem;
+  height: 29rem;
 }
 
 .npc {
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 auto 0 auto;
-  padding: 0.5vh;
+  margin: 0 50 0 50;
+  padding: 2vh;
 }
 
 .card {
-  padding: 40px;
+  padding: 29px;
   border-radius: 25px;
   box-shadow: 10px 10px;
   background-color: rgb(155, 46, 67);
   color: rgb(226, 127, 147);
-  width: 23%;
+  width: 22%;
   text-align: center;
+  transition: all 0.2s;
 }
 
 .card-text {
@@ -60,6 +75,10 @@ img {
   font-size: 2rem;
 }
 
+.card:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 1700px) {
   img {
     height: 25rem;
@@ -67,10 +86,7 @@ img {
 }
 
 @media screen and (max-width: 1500px) {
-  .npc {
-    width: 80%;
-  }
   .card {
-    width: 40%;
+    width: 52%;
   }
 }
