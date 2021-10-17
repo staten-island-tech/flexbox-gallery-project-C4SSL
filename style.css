@@ -76,7 +76,7 @@ h1 {
   font-size: 2rem;
 }
 
-.card:hover {
+.tia.card:hover {
   transform: scale(1.1);
 }
 
@@ -84,12 +84,27 @@ h1 {
   box-shadow: 10px 10px 5px rgb(66, 4, 4);
 }
 
+.eloise.card:hover {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+}
+
+.kk.card:hover {
+  background-color: rgb(212, 62, 92);
+  transform: scale(1.1);
+}
+
+.cherry.card:hover {
+  transform: translate(10%, -5%);
+}
+
 @media screen and (max-width: 1500px) {
   .card {
     width: 52%;
   }
   img {
-    height: 25rem;
+    height: 23rem;
   }
 }
 
