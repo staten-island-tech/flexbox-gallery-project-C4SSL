@@ -109,7 +109,7 @@ h1 {
   transform: translate(10%, -5%);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1800px) {
   h1 {
     font-size: 4rem;
   }
