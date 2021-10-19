@@ -9,7 +9,7 @@ body,
 }
 
 body {
-  background-color: rgb(218, 87, 113);
+  background-color: #454fda;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
   font-size: 5rem;
-  background-color: rgb(241, 128, 151);
+  background-color: #416beb;
   margin: 2vw;
   padding: 1rem;
   animation-name: scale;
@@ -40,7 +40,7 @@ h1 {
 
 .card-header {
   font-size: 3rem;
-  background-color: rgb(93, 12, 28);
+  background-color: #0836c1;
   margin: 6%;
 }
 
@@ -61,8 +61,8 @@ h1 {
   padding: 4rem;
   border-radius: 3rem;
   box-shadow: 1rem 1rem;
-  background-color: rgb(155, 46, 67);
-  color: rgb(226, 127, 147);
+  background-color: #3f6ae9;
+  color: #6d8dee;
   width: 22%;
   text-align: center;
   transition: all 0.2s;
