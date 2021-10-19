@@ -19,6 +19,7 @@ h1 {
   font-size: 5rem;
   background-color: rgb(241, 128, 151);
   margin: 2vw;
+  padding: 1rem;
   animation-name: scale;
   animation-duration: 2s;
 }
